@@ -1,7 +1,7 @@
 # Regent Coders
  
- 
- 
+<br> 
+
 
 ### Links:
 	
@@ -12,8 +12,8 @@
 
 ### Team:
 
-	- Aqmer
-	- Khian
-	- Max
+- Aqmer
+- Khian
+- Max
 
-# regentuniverse.com
+# https://egentuniverse.com
