@@ -1,8 +1,6 @@
-# Regent-Coders
+# Regent Coders
  
-//////////////// REGENT CODERS ///////////////////
-
-
+ 
 Source:
 
 	github.com/aqmeraamir/
