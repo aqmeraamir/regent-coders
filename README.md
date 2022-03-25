@@ -1,9 +1,7 @@
 # Regent Coders
  
  
-Source:
-
-	https://github.com/aqmeraamir
+## https://github.com/aqmeraamir
 
 Links:
 	
