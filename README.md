@@ -3,11 +3,13 @@
  
 Source:
 
-	github.com/aqmeraamir/
+	https://github.com/aqmeraamir
 
 Links:
-
-	instagram.com/
+	
+	https://regentuniverse.com
+	https://instagram.com/Regent-Coders
+	https://youtube.com/Regent-Coders
 
 Team:
 
