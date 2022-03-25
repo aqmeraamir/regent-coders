@@ -1,16 +1,25 @@
 # Regent Coders
  
- 
-Source:
+<br>
 
-	github.com/aqmeraamir/
+*Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.*
 
-Links:
+<br>
 
-	instagram.com/
+### Links:
+	
+- [Github](https://github.com/aqmeraamir/Regent-Coders) 
+- [Instagram](https://instagram.com/Regent-Coders)
+- [YouTube](https://youtube.com/Regent-Coders)
 
-Team:
+<br>
 
-	- Aqmer
-	- Khian
-	- Max
+### Team:
+
+- Aqmer
+- Khian
+- Max
+
+---
+
+## https://regentuniverse.com
