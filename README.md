@@ -1,14 +1,16 @@
 # Regent Coders
  
+ 
+ 
 
-## Links:
+### Links:
 	
 - [Github](https://github.com/aqmeraamir/Regent-Coders) 
 - [Instagram](https://instagram.com/Regent-Coders)
 - [YouTube](https://youtube.com/Regent-Coders)
 
 
-## Team:
+### Team:
 
 	- Aqmer
 	- Khian
