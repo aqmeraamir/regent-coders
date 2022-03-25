@@ -4,8 +4,8 @@
 Links:
 	
 > [Github](https://github.com/aqmeraamir/Regent-Coders)
-	https://instagram.com/Regent-Coders
-	https://youtube.com/Regent-Coders
+> [Instagram](https://instagram.com/Regent-Coders)
+> [YouTube](https://youtube.com/Regent-Coders)
 
 Team:
 
