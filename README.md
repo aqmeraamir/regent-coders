@@ -9,7 +9,6 @@
 ### Links:
 	
 - [Github](https://github.com/aqmeraamir/Regent-Coders) 
-- [Instagram](https://instagram.com/Regent-Coders)
 - [YouTube](https://www.youtube.com/channel/UCKjSrGGT5KWUbLJKxq5IHZw)
 
 <br>
