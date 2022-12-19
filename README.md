@@ -1,4 +1,4 @@
-# Regent Coders
+# Regent Galaxy
  
 <br>
 
@@ -21,4 +21,4 @@
 
 ---
 
-## https://regentuniverse.com
+## https://galaxy.regentuniverse.com
