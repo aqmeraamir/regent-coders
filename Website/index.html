@@ -11,25 +11,31 @@
         
 
         <!-- LOGO -->
-        <title>Regent Coders!</title>
-        <link rel="icon" href="Media/images/icon.png">
+        <title>Regent Galaxy</title>
+        <link rel="icon" href="Media/images/planet.png">
 
         <!-- CSS -->
         <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="CSS/footer.css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     
         
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        <!-- SCRIPT -->
+        <script defer src="Javascript/main.js"></script>
 
 
     </head>
 
     <body>
 
-
+        <!-- HEADER -->
         <section class="header">
             <nav>
 
@@ -38,26 +44,26 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">OUR GAMES</a></li>
-                        <li><a href="">CONTENT</a></li>
-                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="content.html">CONTENT</a></li>
+                        <li><a href="learn.html">LEARN</a></li>
+                        <li><a href="about-us.html">ABOUT US</a></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
 
-
+       
             <div class="text-box">
-                <h1>REGENT CODERS!</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <br>
-                     standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled </p>
+                <img src="./Media/images/planet.png"/>
+                <h1> &lt;/ REGENT <mark class="blue">GALAXY</mark> &gt; </h1>
+                <p>Explore the games, courses, content and much more all developed by the students at Regent<br>or even share your games for everyone to play</p>
                 
-                <a href="#contents" class="hero-btn">Read More</a>     
+                    
             </div>
             <div class="fade"></div>
         </section>
-
+        <!-- HEADER -->
 
 
 
@@ -65,29 +71,29 @@
 
         <section class="contents" id="contents">
             
-            <h1>Explore!</h1>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+            <h1>EXPLORE</h1>
+            <p> Click any column to explore Regent Galaxy! </p>
 
             <div class="row">
                 <div class="contents-col"">
-                    <img src="Media/images/placeholder.jpg">
-                    <div class="layer">
-                        <h3>OUR GAMES</h3>
-                    </div>
+                    <img src="Media/images/our-games.jpg">
+                    <a href="content.html"><div class="layer">
+                        <h3>CONTENT</h3>
+                    </div></a>
                 </div>   
                 
                 <div class="contents-col">
-                    <img src="Media/images/placeholder.jpg">
-                    <div class="layer">
-                        <h3>OUR CONTENT</h3>
-                    </div>
+                    <img src="Media/images/our-content.jpg">
+                    <a href="learn.html"><div class="layer">
+                        <h3>LEARN</h3>
+                    </div></a>
                 </div>  
 
                 <div class="contents-col">
-                    <img src="Media/images/placeholder.jpg">
-                    <div class="layer">
-                        <h3>LOREM IPSUM</h3>
-                    </div>
+                    <img src="Media/images/about-us.png">
+                    <a href="about-us.html"><div class="layer">
+                        <h3>ABOUT US</h3>
+                    </div></a>
                 </div>  
             </div>
 
@@ -97,71 +103,55 @@
         <!--CONTENTS-->
 
 
-        <!--STAGES-->
-
-        <section class="stages">
-            <h1>Stages of Programming</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-            <div class="row">
-
-                <div class="stages-col">'
-
-                    <h3>Step 1. Analayze the problem</h3>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
-                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage</p>
-
-                </div>
-
-                <div class="stages-col">'
-
-                    <h3>Step 2. Plan/Design the problem</h3>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
-                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage</p>
-
-                </div>
-
-                <div class="stages-col">'
-
-                    <h3>Step 3. Code the problem</h3>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
-                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage</p>
-
-                </div>
-
-                <div class="stages-col">'
-
-                    <h3>Step 4. Debug the problem</h3>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
-                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage</p>
-
-                </div>
-
-            </div>
-
-        </section>
 
 
 
-        <!-- JAVASCRIPT (TOGGLE MENU )-->
 
-        <script>
-            var navLinks = document.getElementById("navLinks");
+        <!-- FOOTER -->
+ 
+   <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">RegentUniverse.com & its subdomains (eg Regent Galaxy) are ground-breaking initiatives from the innovative Computing & Applied Innovation Department.  These sites are first & foremost proprietary internal teaching & learning tools. Their audience is the immediate internal school community and NOT intended for the world at large, NOR is there any intention to make them do so.
+            RegentUniverse.com & its subdomains (eg Regent Galaxy) are owned by Regent International School, part of Fortes Education, Dubai, UAE.  These are password-protected, using Fortes’ proprietary IT services & are governed by Fortes IT policies & protocols.  For any concerns & queries, please contact the school.</p>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          
+            <img src="./Media/images/regent_galaxy_2.png">
+          </div>
 
-            function showMenu() {
-                navLinks.style.right = "0";
-            }
+        <div class="col-xs-6 col-md-3">
+          <h6>CONTACT US</h6>
+          <ul class="footer-links">
+            <li><a href="">+971 4 360 8830</li>
+            <li><a href="">Emaars 'The Greens' First Al Khail Street</a></li>
+            <li><a href="https://regentuniverse.com">Regent Universe</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+       <a href="#">Regent Galaxy</a>       -       Website made by Aqmer Aamir.
+          </p>
+        </div>
 
-            function hideMenu() {
-                navLinks.style.right = "-200px";
-            }
-        </script> 
-
-      <!-- JAVASCRIPT (TOGGLE MENU )-->
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
 
     </body>
 

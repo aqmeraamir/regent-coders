@@ -1,0 +1,86 @@
+/* keyframes */
+@keyframes ProfileHoverOn {
+    from {
+        top: 0px;
+        left: 0px;
+        padding: 0px;
+        background-color: #00000000;
+    }
+    to {
+        padding: 20px;
+        top: -20px;
+        left: -20px;
+        background-color: #c3c2c265;
+    }
+}
+@keyframes ProfileHoverOff {
+    from {
+        padding: 20px;
+        top: -20px;
+        left: -20px;
+        background-color: #c3c2c265;
+    }
+    to {
+        top: 0px;
+        left: 0px;
+        padding: none;
+        background-color: #00000000;
+    }
+}
+
+/* profile */
+.profile {
+    position: relative;
+    top: 15vh;
+    width: 33vw;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.profile > a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    width: 20vw;
+    height: 20vw;
+    background-color: #00000000;
+    background-size: 0px;
+    animation-duration: 0.2s;
+    animation-name: ProfileHoverOff;
+}
+.profile > a:hover {
+    padding: 20px;
+    top: -20px;
+    left: -20px;
+    background-color: #c3c2c265;
+    animation-name: ProfileHoverOn;
+}
+.profile > img {
+    position: relative;
+    width: 20vw;
+    border-radius: 3px;
+    margin-right: 13vw;
+}
+.profile > p {
+    position: relative;
+    font-family: 'IBM Plex Mono';
+    align-self: center;
+    transform: translateX(-6.5vw);
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    top: 10px;
+    color: rgb(100, 100, 100);
+}
+
+/* profile container */
+#profile-container {
+    position: relative;
+    display: flex;
+    flex-direction: ltr;
+    flex-wrap: wrap;
+    width: 100vw;
+    left: 6.5vw;
+    top: 75px;
+}

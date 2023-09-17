@@ -1,0 +1,197 @@
+/* keyframes */
+@keyframes BackgroundFormation {
+    0% {
+        top: 0vh;
+    }
+    25% {
+        top: 0vh;
+    }
+    100% {
+        top: 20vh;
+    }
+}
+@keyframes BodyColorChange {
+    0% {
+        background-color: rgb(250, 209, 121);
+    }
+    35% {
+        background-color: rgb(250, 209, 121);
+    }
+    100% {
+        background-color: #cfcdcd;
+    }
+}
+@keyframes UserImageSlide {
+    0% {
+        top: -4vh;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: -15vh;
+        transform: rotate(-10deg);
+    }
+    100% {
+        top: 8vh;
+        transform: rotate(0deg);
+    }
+}
+@keyframes HamburgerButtonStart {
+    from {
+        background-color: rgb(53, 90, 194);
+    }
+    to {
+        background-color: #00000000;
+    }
+}
+@keyframes UserHamburgerHoverOn {
+    from {
+        background-color: #00000000;
+    }
+    to {
+        background-color: #c9c4c4;
+    }
+}
+@keyframes UserHamburgerHoverOff {
+    from {
+        background-color: #c9c4c4;
+    }
+    to {
+        background-color: #00000000;
+    }
+}
+@keyframes UserNameSlideIn {
+    0% {
+        top: 36vh;
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        top: 22vh;
+        opacity: 1;
+    }
+}
+@keyframes UserBioFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes PostHoverOn {
+    from {
+        background-color: #cfcdcd;
+    }
+    to {
+        background-color: rgb(250, 209, 121);
+    }
+}
+@keyframes PostHoverOff {
+    from {
+        background-color: rgb(250, 209, 121);
+    }
+    to {
+        background-color: #cfcdcd;
+    }
+}
+
+/* body */
+body {
+    background-color: #cfcdcd;
+    animation-duration: 1s;
+    animation-name: BodyColorChange;
+}
+
+/* background form */
+#background-form {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    width: 90vw;
+    background-color: #ffffff;
+    border-radius: 2px;
+    animation-duration: 1s;
+    animation-name: BackgroundFormation;
+}
+
+/* user image */
+#user-image {
+    position: absolute;
+    width: 20vw;
+    top: 8vh;
+    left: 60vw;
+    border-radius: 100%;
+    animation-duration: 0.9s;
+    animation-name: UserImageSlide;
+}
+
+/* user name */
+#user-name {
+    position: relative;
+    top: 22vh;
+    left: 20vw;
+    font-size: 2.5vw;
+    font-family: 'Roboto Mono';
+    animation-duration: 0.5s;
+    animation-name: UserNameSlideIn;
+}
+
+/* user bio */
+#user-bio {
+    position: relative;
+    top: 45vh;
+    left: 7vw;
+    width: 86vw;
+    font-size: 18px;
+    font-family: 'Jetbrains Mono';
+    animation-duration: 1.2s;
+    animation-name: UserBioFadeIn;
+}
+
+/* hamburger menu */
+#hamburger-button {
+    background-color: #00000000;
+    animation-duration: 0.2s;
+    animation-name: UserHamburgerHoverOff;
+}
+#hamburger-button:hover {
+    background-color: #c9c4c4;
+    animation-duration: 0.2s;
+    animation-name: UserHamburgerHoverOn;
+}
+#hamburger-options {
+    background-color: #cfcdcd;
+}
+
+/* post container */
+#post-container {
+    position: relative;
+    left: 6vw;
+    top: 55vh;
+    display: flex;
+    flex-direction: ltr;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+/* post */
+.post {
+    margin-bottom: 60px;
+}
+.post > iframe {
+    width: 23vw;
+    height: 12vw;
+    border: none;
+    background-color: #c9c4c4;
+    padding: 10px;
+    margin-left: -10px;
+    border-radius: 2px;
+    animation-duration: 0.2s;
+    animation-name: PostHoverOff;
+}
+.post > iframe:hover {
+    background-color: rgb(250, 209, 121);
+    animation-name: PostHoverOn;
+}

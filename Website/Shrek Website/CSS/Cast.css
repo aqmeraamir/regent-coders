@@ -1,0 +1,214 @@
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: edwardian script itc;
+    padding-top: 50px;
+    color:black;
+    text-decoration: underline;
+}
+div.gallery {
+    margin: 5px;
+    border: 2px solid #39fa70;
+    float: left;
+    width: 180px;
+    background-color: #39fa70;
+    -webkit-transition-duration: 0.8s;
+    transition-duration:0.8s ;
+  }
+
+  div.gallery:hover {
+    background-color: white;
+    color: yellow;
+  }
+
+  div.gallery img {
+    width: 120px;
+    height:150px;
+
+
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+    font-family: castellar;
+  }
+  div.gallerya {
+    margin: 5px;
+    border: 2px solid #39faca;
+    float: left;
+    width: 180px;
+    background-color: #39faca;
+    -webkit-transition-duration: 0.8s;
+    transition-duration:0.8s ;
+  }
+
+  div.gallerya:hover {
+    background-color: white;
+    color: yellow;
+  }
+
+  div.gallerya img {
+    width: 120px;
+    height:150px;
+    float: center;
+  }
+
+  div.desca {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+    font-family: castellar;
+  }
+  div.galleryb {
+    margin: 5px;
+    border: 2px solid rgb(5, 132, 252);
+    float: left;
+    width: 180px;
+    background-color: rgb(5, 132, 252);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:0.8s ;
+  }
+
+  div.galleryb:hover {
+    background-color: white;
+    color: yellow;
+  }
+
+  div.galleryb img {
+    width: 120px;
+    height:150px;
+    float: center;
+  }
+
+  div.descb {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+    font-family: castellar;
+  }
+  div.galleryc {
+    margin: 5px;
+    border: 2px solid rgb(252, 194, 5);
+    float: left;
+    width: 180px;
+    background-color: rgb(252, 194, 5);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:0.8s ;
+  }
+
+  div.galleryc:hover {
+    background-color: white;
+    color: yellow;
+  }
+
+  div.galleryc img {
+    width: 120px;
+    height:150px;
+    float: center;
+  }
+
+  div.descc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+    font-family: castellar;
+  }
+
+  div.galleryd {
+    margin: 5px;
+    border: 2px solid rgb(128, 123, 107);
+    float: left;
+    width: 180px;
+    background-color: rgb(128, 123, 107);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:0.8s ;
+  }
+
+  div.galleryd:hover {
+    background-color: white;
+    color: yellow;
+  }
+
+  div.galleryd img {
+    width: 120px;
+    height:150px;
+    float: center;
+  }
+
+  div.descd {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+    font-family: castellar;
+  }
+
+  div.gallerye {
+    margin: 5px;
+    border: 2px solid rgb(245, 62, 6);
+    float: left;
+    width: 180px;
+    background-color: rgb(245, 62, 6);
+    -webkit-transition-duration: 0.8s;
+    transition-duration:0.8s ;
+  }
+
+  div.gallerye:hover {
+    background-color: white;
+    color: yellow;
+  }
+
+  div.gallerye img {
+    width: 120px;
+    height:150px;
+    float: center;
+  }
+
+  div.desce {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+    font-family: castellar;
+  }
+
+
+  h3.a{
+      margin-left: 75px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }

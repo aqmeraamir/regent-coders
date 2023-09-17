@@ -1,0 +1,571 @@
+/*BEHIND THE SCENES */
+body  {
+  padding: 10px;
+  margin: 20px;
+  border-style: dotted;
+  border-color: #ff9900;
+
+}
+/*Header*/
+header{
+   background-color:#000000; /*black*/
+   color: #ff9900;
+   text-align: center;
+   background-image: url("images/logos/RegentGalaxy_webLogo-01.png");
+   background-size:100%;
+   padding:20px;
+}
+
+/*END Header*/
+
+/*footer*/
+footer{
+  text-align: center;
+  /* background-image: url("../images/Roman Forum/Forum (1).jpg"); */
+  background-color:#000000; /*black*/
+  background-size:100%;
+  padding:25px;
+  /* background-color:#1f3d7a;/*maze blue*/ */
+  padding:20px;
+  background-size:100%;
+}
+
+/*END Footer*/
+
+.continer2 {
+  width 80%
+  margin: 0 auto;
+}
+
+
+article{
+  /*background-color:#99ffcc; /*pukey green*/
+  width: 100%;
+  height: 300px;
+  margin-left: 50px;
+  text-align: center; /*This actually centers the images of the figure*/
+  }
+
+.blurb p{
+  color: #1f3d7a;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  font-size: 20px;
+}
+
+
+article .blurb {
+margin-left: 10%;
+margin-right: 10%;
+padding: 5;
+text-align: justify;
+}
+
+
+.center{
+ margin: auto;
+ width: 100%;
+
+ padding: 10px;
+ height: auto;
+}
+
+main{
+  padding: 55px;
+}
+
+
+figure {
+  display: inline-block;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 40px;
+  margin-right: 40px;
+
+
+
+}
+
+figure figcaption {
+  vertical-align: center;
+  text-align: center;
+
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+}
+
+figure img{
+  vertical-align: center;
+
+}
+
+/* img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px; */
+
+
+}
+
+.gallery h1{
+  text-transform: uppercase;
+  color: #000000 ;
+  text-align: center;
+
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*START Image Grid*/
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+/*END Image Grid
+
+
+/*The main Catchprhase*/
+.flashing h1{
+  /*background: #4747d1;*/
+  text-transform: uppercase;
+  font-family:  "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  color: #fff000 ;
+  text-align: center;
+  font-size: 5vw; /*vw = viewport width and means RESPONSIVE TEXT sizing*/
+  -webkit-animation-name: sparkle;
+  -webkit-animation-duration: 4s;
+  animation-name; sparkle;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  }
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sparkle {
+  0%   {color: #ffffff} /*gradients of yellow from light to bright yellow*/
+  25%  {color: #ffffb3}
+  50%  {color: #ffff4d}
+  100% {color: #ffff00}
+}
+
+/* Standard syntax */
+@keyframes sparkle {
+  0%   {color: #ffffff}
+  25%  {color: #ffffb3}
+  50%  {color: #ffff4d}
+  100% {color: #ffff00}
+}
+/*END END END END*/
+
+/*NOTES
+ Text colour transforming. https://www.youtube.com/watch?v=Dqf5oup9Jqs
+ https://www.youtube.com/watch?v=Syg_9iB1vco
+ */
+
+/*The animation for 3 Power words: Exploration History Adventure*/
+
+.word1{
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  text-align: center;
+  font-size: 2vw;
+  -webkit-animation-name: flashing1;
+  -webkit-animation-duration: 4s;
+  animation-name; flashing;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes flashing1{
+  0%   {color: #ffffff} /*white*/
+  50%  {color: #ff9999} /*light red*/
+  100% {color: #ff0000} /*dark red*/
+  50%  {color: #ff9999}
+  0%   {color: #ffffff}
+
+}
+
+/* Standard syntax */
+@keyframes flashing1{
+  0%   {color: #ffffff}
+  50%  {color: #ff9999}
+  100% {color: #ff0000}
+  50%  {color: #ff9999}
+  0%   {color: #ffffff}
+}
+/*NOTE can chose animation-iteration-count: infinte;*/
+
+.word2{
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  text-align: center;
+  font-size: 2vw;
+  -webkit-animation-name: flashing3;
+  -webkit-animation-duration: 4s;
+  animation-name; flashing3;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes flashing2{
+  0%   {color: #ffffff}
+  50%  {color: #ff9999}
+  100% {color: #ff0000}
+  50%  {color: #ff9999}
+  0%   {color: #ffffff}
+
+}
+
+/* Standard syntax */
+@keyframes flashing2{
+  0%   {color: #ffffff}
+  50%  {color: #ff9999}
+  100% {color: #ff0000}
+  50%  {color: #ff9999}
+  0%   {color: #ffffff}
+
+}
+
+.word3{
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  text-align: center;
+  font-size: 2vw;
+  -webkit-animation-name: flashing3;
+  -webkit-animation-duration: 4s;
+  animation-name; flashing3;
+  animation-duration: 3s;
+  animation-delay: 8s;
+  animation-iteration-count: 1;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes flashing3{
+  0%   {color: #ffffff}
+  50%  {color: #ff9999}
+  100% {color: #ff0000}
+  50%  {color: #ff9999}
+  0%   {color: #ffffff}
+
+}
+
+/* Standard syntax */
+@keyframes flashing3{
+  0%   {color: #ffffff}
+  50%  {color: #ff9999}
+  100% {color: #ff0000}
+  50%  {color: #ff9999}
+  0%   {color: #ffffff}
+
+}
+
+h2{
+	color: #ffffff;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  text-align: center;
+  font-size: 1vw;
+}
+
+h3{
+  color: #ffffff;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+	background: #0066FF;
+  text-align: center;
+}
+
+h5{
+  color: #ffffff;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  text-align: center;
+  font-size: 2vw;
+}
+
+.credits {
+  color: #ffffff; /*white*/
+  text-align: left;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  font-size: 1vw;
+}
+
+.logos {
+  text-align: center;
+  background-color: #404040;
+  position: relative;
+}
+
+.coded h4 {
+  text-align: left;
+  color: blue;
+  /* background-color: #404040; */
+  position: relative;
+}
+
+.instructions h1 {
+  color: #ff0000;
+	text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+}
+
+/*This code embeds styles the google map to be responsive*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    center:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:relative;
+    text-align: center;
+    border="0" style="border:0;"
+}
+
+.map iframe{
+  width:100%;
+}
+/*END END END */
+
+details{
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+}
+
+
+section {
+  padding: 20px;
+  width: auto;
+}
+
+.gallery h1{
+  color: #ff0000; /*red*/
+	text-align: center;
+  font-size: 3vw
+}
+
+
+.right table {
+      color: rgb(20, 20, 31, 0.6); /*TEXT dark bluish text color with opactity*/
+
+    	border-spacing: 0;
+    	border: 2px solid black;
+    	-webkit-border-radius: 25px 25px 0 0;
+    	-moz-border-radius: 25px 25px 0 0; /*This curves the top border only*/
+      width: 75%;
+      line-height: 1.6;
+      margin-left:auto;
+      margin-right:auto;
+}
+/*Format the table headings*/
+.right th{
+      	text-align: center;
+      	background: #0066FF; /*blueish*/
+        vertical-align: center;
+}
+
+.right tr {
+  background-color: rgb(230, 230, 255); /*Bluish 1st 3 numbers are RGB. The last number is opactity out of 1.*/
+  vertical-align: center;
+  border: 1px ;
+  border-color: #000000;
+
+}
+
+/*Changes opacticty back to normal  */
+.right tr:hover {
+  color: rgb(0, 0, 255, 1);
+}
+/*To curve the top, we need to curve the
+row and the element.  And each element needs to
+curve a different corner.*/
+.right tr:first-child{
+	-webkit-border-radius: 25px 25px 0 0;
+	-moz-border-radius: 25px 25px 0 0;
+}
+.right th:first-child {
+	-webkit-border-radius: 25px 0 0 0;
+	-moz-border-radius: 25px 0 0 0;
+}
+
+.right th:last-child {
+	-webkit-border-radius: 0px 25px 0 0;
+	-moz-border-radius:  0px 25px 0 0;
+}
+
+/*Format the caption
+Use border-radius for just some corners*/
+.right caption{
+	text-transform: uppercase;
+	background-color: #666666;
+	color:#ffffff;
+	font-size: 150%;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 25px 25px 0 0;
+}
+
+/*Format common heading and element attributes*/
+/*Set the size and alignment for elements*/
+.right th, .right td{
+	margin: 2px;
+	padding-bottom: 2px;
+  width:25px;
+	height:25px;
+	vertical-align: center;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+
+
+.right th:first-child, td:first-child {
+ text-align: left;
+ margin: 5px;
+ padding-left: 10px;
+}
+
+
+aside {
+  background: #0066FF;
+  float: left;
+  width: 20%;
+  padding: 10px
+}
+
+.left {
+  float: left;
+}
+
+.left img {
+	border: solid 1px #000000;
+	width: 80%;
+	margin: 10%;
+}
+.right {
+	width:74%;
+	display: inline-block;
+	padding-left: 2%;
+
+
+}
+/*NAVIGATION BAR*/
+nav a {
+
+  display: inline-block;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+  text-align: center;
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff; /*Text color *white*/
+  background-color: rgb(0, 102, 255, 0.5); /*Background of the button)*Bluish 1st 3 numbers are RGB. The last number is opactity out of 1.*/
+  border-radius: 10%; /*rounded corners*/
+  margin: 10px;
+  padding: 10px;
+  border: 25px;
+  width: 10%;
+}
+
+/*descendant class denoted by full-stop*  This changes the link.
+This hover is here...used like a command and is not a class
+as written in the HTML.*/
+
+nav a:hover{
+  color: #00004d;/*dark blue--text color*/
+  background: #e6f2ff; /*blueish*/
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #000000;
+}
+
+nav .logo {
+  background-color: none;
+}
+/*END Navigation Bar*/
+
+/*The Open & Close Buttons*/
+.closed{
+		display: block;
+}
+.open{
+		display: none;
+}
+
+/*There's another p code in the slideshow gallery which would get knocked out unless you put these
+buttons in their own container with their own class.  Then it works.*/
+/* .mapdisplay p {
+  text-align: center;
+  display: none;
+} */
+
+/* .mapdisplay iframe{
+  width:100%;
+} */
+/*centers the buttons*/
+.wrapper {
+    text-align: center;
+}
+
+/*JS Buttons*/
+button{
+			  width:150px;
+  			background-color: #00CCEE;
+  			margin-left:15px;
+  			font-size:1vw;
+        background-color:#00004d;/*dark blue*/
+        color: #ffffff;/*white*/
+        text-transform: uppercase;
+        font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "Serif";
+        border-radius: 20%;
+        display: inline-block;
+        justify-content: center;
+
+  		}
+/*This is calling an ID*/
+#press{
+  		color:white;
+			padding:10px;
+      font-size:120%
+}
+
+
+
+}
+
+.form{
+  text-align: center;
+  border: none;
+  width: 100%;
+  max-width:100%;
+  max-height:100vh:
+  marginwidth: 0;
+  marginheight: 0;
+  -allowfullscreen;
+  -webkit-allow:fullscreen;
+  -moz-allowfullscreen;
+  -ms-allowfullscreen;
+}
+
+.form iframe{
+  width: 100%
+}
+
+/*<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAArPVuxUQUpOWFpJTE8zSTBWOTZKMFFVUUdIN1pBNC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+/*
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+/*

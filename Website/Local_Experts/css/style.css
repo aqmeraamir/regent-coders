@@ -1,0 +1,82 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+/* keyframes */
+@keyframes FadeScreen {
+    from {
+        opacity: 1;
+        width: 100vw;
+        height: 100vh;
+    }
+    to {
+        opacity: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+/* body */
+body {
+    background-color: rgb(250, 209, 121);
+    overflow-x: hidden;
+}
+
+/* page title */
+.page-title {
+    position: relative;
+    text-align: center;
+    font-family: 'IBM Plex Mono';
+    top: 5vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* paragraph */
+.paragraph {
+    position: relative;
+    top: 10vh;
+    left: 7vw;
+    max-width: 84vw;
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+/* background */
+#background {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 90vw;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+/* fader */
+#fade {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    background-color: #ffffff;
+    animation-duration: 0.4s;
+    animation-name: FadeScreen;
+}
+
+/* general anchors */
+a {
+    color: #0004ff;
+    text-decoration: none;
+}
+a:hover {
+    color: #0004ff;
+    text-decoration: underline;
+}
+a:visited {
+    color: #0004ff;
+    text-decoration: none;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Regent's Local Experts | Gallery</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <link rel="stylesheet" href="./css/hamburgerMenu.css" type="text/css">
+        <link rel="stylesheet" href="./css/profile.css" type="text/css">
+        <script src="./js/script.js"></script>
+        <script>
+            var lastPF = document.getElementById('last-profile');
+            var BG = document.getElementById('background');
+            var backgroundEXT = document.getElementById('background-extension');
+        </script>
+        <style>
+            #background-extension {
+                position: absolute;
+                top: 95vh;
+                left: 5vw;
+                padding-right: 90vw;
+                background-color: #ffffff;
+                border-radius: 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- background -->
+        <div id="background" style="padding-bottom: 90vh;"></div>
+        <div id="background-extension"></div>
+
+        <header>
+            <!-- text -->
+            <p class="page-title">The Gallery</p>
+            <p class="paragraph">
+                This is the Gallery, here you can view every single creator registered on our program! You may browse as you please, and check out 
+                anyone's page that seems qualified to your interests, simply by clicking on their profile, have fun!
+            </p>
+
+            <!-- profiles -->
+            <div id="profile-container">
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile1</p>
+                    <a href="./users/userTemplate.html"></a>
+                </div>
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile2</p>
+                    <a href="xxx"></a>
+                </div>
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile3</p>
+                    <a href="xxx"></a>
+                </div>
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile4</p>
+                    <a href="xxx"></a>
+                </div>
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile5</p>
+                    <a href="xxx"></a>
+                </div>
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile6</p>
+                    <a href="xxx"></a>
+                </div>
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile7</p>
+                    <a href="xxx"></a>
+                </div>
+                <div class="profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile8</p>
+                    <a href="xxx"></a>
+                </div>
+                <div class="profile" id="last-profile">
+                    <img src="./assets/images/profilePicturePlaceholder.png">
+                    <p>Profile9</p>
+                    <a href="xxx"></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- hamburger menu -->
+        <footer>
+            <div id="hamburger-menu">
+                <div id="hamburger-options">
+                    <a href="./index.html">Home</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <button>Search</button>
+                </div>
+                <button id="hamburger-button" onclick="hamburgerPressed();">
+                    <img src="./assets/images/hamburgerMenu.png" alt="Hamburger Menu" id="hamburger-image">
+                </button>
+            </div>
+        </footer>
+
+        <!-- screen fade in -->
+        <div id="fade"></div>
+
+    </body>
+
+</html>
