@@ -9,3 +9,6 @@ Welcome to Regent Galaxy, a coding haven for students at Regent International Sc
 ## Links
 
 Visit the Regent Galaxy website: [https://galaxy.regentuniverse.com](https://galaxy.regentuniverse.com)
+
+
+*I made this website in year 9 when I was ~1 as requested by my computer science teacher*
