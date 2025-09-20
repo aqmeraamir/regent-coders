@@ -11,4 +11,4 @@ Welcome to Regent Galaxy, a coding haven for students at Regent International Sc
 Visit the Regent Galaxy website: [https://galaxy.regentuniverse.com](https://galaxy.regentuniverse.com)
 
 
-*I made this website in year 9 when I was ~11 working with my computer science teacher*
+*I made this website in year 9 ~age 11 working with my computer science teacher*
