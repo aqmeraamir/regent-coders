@@ -1,158 +1,189 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<html>
+    <!-- LOGO -->
+    <title>Regent Galaxy</title>
+    <link rel="icon" href="Media/images/planet.png">
 
-    <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-        <meta charset="utf-8">
-        <meta lang="en-us">
-        <meta name="viewport" content="with=device-width, intial-scale=1.0">
-        
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
 
-        <!-- LOGO -->
-        <title>Regent Galaxy</title>
-        <link rel="icon" href="Media/images/planet.png">
+    <!-- SCRIPT -->
+    <script defer src="Javascript/main.js"></script>
+</head>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="CSS/main.css">
-        <link rel="stylesheet" href="CSS/footer.css">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    
-        
-        <!-- FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-        
-        <!-- SCRIPT -->
-        <script defer src="Javascript/main.js"></script>
+<body>
 
+    <!-- HEADER -->
+    <section class="header">
+        <nav>
+            <a href="https://regentuniverse.com">
+                <img src="Media/images/regentuniverse.png" alt="Regent Universe Logo">
+            </a>
 
-    </head>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="content.html">CONTENT</a></li>
+                    <li><a href="learn.html">LEARN</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
 
-    <body>
+        <div class="text-box">
+            <img src="./Media/images/planet.png" alt="Planet">
+            <h1>&lt;/ REGENT <mark class="blue">GALAXY</mark> &gt;</h1>
+            <p>
+                Explore the games, courses, content and much more all developed by the students at Regent<br>
+                or even share your games for everyone to play
+            </p>
+            <a href="#contents" class="hero-btn">Read More</a>
+        </div>
+        <div class="fade"></div>
+    </section>
+    <!-- HEADER END -->
 
-        <!-- HEADER -->
-        <section class="header">
-            <nav>
+    <!-- CONTENTS -->
+    <section class="contents" id="contents">
+        <h1>EXPLORE</h1>
+        <p>Click any column to explore Regent Galaxy!</p>
 
-                <a href="https://regentuniverse.com"><img src="Media/images/regentuniverse.png"></a>
+        <div class="row">
+            <div class="contents-col">
+                <img src="Media/images/our-games.jpg" alt="Our Games">
+                <a href="content.html">
+                    <div class="layer">
+                        <h3>CONTENT</h3>
+                    </div>
+                </a>
+            </div>
 
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="content.html">CONTENT</a></li>
-                        <li><a href="learn.html">LEARN</a></li>
-                        <li><a href="about-us.html">ABOUT US</a></li>
+            <div class="contents-col">
+                <img src="Media/images/our-content.jpg" alt="Our Content">
+                <a href="learn.html">
+                    <div class="layer">
+                        <h3>LEARN</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="contents-col">
+                <img src="Media/images/about-us.png" alt="About Us">
+                <a href="about-us.html">
+                    <div class="layer">
+                        <h3>ABOUT US</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- CONTENTS END -->
+
+    <!-- STAGES -->
+    <section class="stages">
+        <h1>Stages of Programming</h1>
+        <p>These are the stages/steps which are usually followed while programming.</p>
+
+        <div class="row">
+            <div class="stages-col">
+                <h3>Step 1. Analyzing</h3>
+                <p>
+                    This is the first step of programming and involves getting the following information. These things are very important for the programmer because it provides him the basis for planning about the programming and to control the potential difficulties that may arise.
+                </p>
+            </div>
+
+            <div class="stages-col">
+                <h3>Step 2. Planning/Designing</h3>
+                <p>
+                    The next stage is the program design. The software developer makes use of tools like algorithms and flowcharts to develop the design of the program.
+                    <br><br>- Algorithm
+                    <br>- Flowchart
+                </p>
+            </div>
+
+            <div class="stages-col">
+                <h3>Step 3. Coding</h3>
+                <p>
+                    In this step programmer writes the instructions in a computer language to solve the problem. All coding process depends upon the information we obtained in previous steps. Choice of language depends upon the requirements and facilities available with a language.
+                </p>
+            </div>
+
+            <div class="stages-col">
+                <h3>Step 4. Debugging</h3>
+                <p>
+                    In this stage we remove all the errors in the program because when we are coding, there are chances that some mistakes may occur at that time. Here the program is executed manually, called DRY RUN. This is done several times until all the errors are removed from the program and the system become errorless.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- STAGES END -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">
+                        galaxy.regentuniverse.com <i>Where Hard Coders Dare To Code</i> Regent Galaxy is the latest collaborative innovation from the Computing & Applied Innovation Departments. This website provides students with real-life opportunities to develop & hard-code live websites from scratch. Students are challenged to learn & investigate HTML, CSS & JavaScript (& more) to help them innovate with solving problems & meeting needs. An extension to the curriculum, students plan & create websites for class projects, competitions, their own passions & more! They're especially challenged to make the website responsive, user friendly & coded specifically for people with disabilities: inclusivity & accessibility for all.
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <img src="./Media/images/regent_galaxy_2.png" alt="Regent Galaxy Logo">
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="learn.html">Learn</a></li>
+                        <li><a href="content.html">Content</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://regentuniverse.com">Regent Universe</a></li>
                     </ul>
                 </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
-
-       
-            <div class="text-box">
-                <img src="./Media/images/planet.png"/>
-                <h1> &lt;/ REGENT <mark class="blue">GALAXY</mark> &gt; </h1>
-                <p>Explore the games, courses, content and much more all developed by the students at Regent<br>or even share your games for everyone to play</p>
-                
-                    
             </div>
-            <div class="fade"></div>
-        </section>
-        <!-- HEADER -->
+            <hr>
+        </div>
 
-
-
-        <!--CONTENTS -->
-
-        <section class="contents" id="contents">
-            
-            <h1>EXPLORE</h1>
-            <p> Click any column to explore Regent Galaxy! </p>
-
+        <div class="container">
             <div class="row">
-                <div class="contents-col"">
-                    <img src="Media/images/our-games.jpg">
-                    <a href="content.html"><div class="layer">
-                        <h3>CONTENT</h3>
-                    </div></a>
-                </div>   
-                
-                <div class="contents-col">
-                    <img src="Media/images/our-content.jpg">
-                    <a href="learn.html"><div class="layer">
-                        <h3>LEARN</h3>
-                    </div></a>
-                </div>  
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">
+                        Copyright &copy; 2022 All Rights Reserved by 
+                        <a href="#">Regent Galaxy</a> - Website made by Aqmer Aamir.
+                    </p>
+                </div>
 
-                <div class="contents-col">
-                    <img src="Media/images/about-us.png">
-                    <a href="about-us.html"><div class="layer">
-                        <h3>ABOUT US</h3>
-                    </div></a>
-                </div>  
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
             </div>
-
-        </section>
-
-
-        <!--CONTENTS-->
-
-
-
-
-
-
-        <!-- FOOTER -->
- 
-   <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify">RegentUniverse.com & its subdomains (eg Regent Galaxy) are ground-breaking initiatives from the innovative Computing & Applied Innovation Department.  These sites are first & foremost proprietary internal teaching & learning tools. Their audience is the immediate internal school community and NOT intended for the world at large, NOR is there any intention to make them do so.
-            RegentUniverse.com & its subdomains (eg Regent Galaxy) are owned by Regent International School, part of Fortes Education, Dubai, UAE.  These are password-protected, using Fortes’ proprietary IT services & are governed by Fortes IT policies & protocols.  For any concerns & queries, please contact the school.</p>
         </div>
-        <div class="col-xs-6 col-md-3">
-          
-            <img src="./Media/images/regent_galaxy_2.png">
-          </div>
+    </footer>
+    <!-- FOOTER END -->
 
-        <div class="col-xs-6 col-md-3">
-          <h6>CONTACT US</h6>
-          <ul class="footer-links">
-            <li><a href="">+971 4 360 8830</li>
-            <li><a href="">Emaars 'The Greens' First Al Khail Street</a></li>
-            <li><a href="https://regentuniverse.com">Regent Universe</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
-       <a href="#">Regent Galaxy</a>       -       Website made by Aqmer Aamir.
-          </p>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-          </ul>
-        </div>
-      </div>
-    </div>
-</footer>
-
-    </body>
-
+</body>
 </html>

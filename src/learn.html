@@ -1,181 +1,124 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<html>
+    <!-- LOGO -->
+    <title>Regent Galaxy</title>
+    <link rel="icon" href="Media/images/icon.png">
 
-    <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/learn.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <meta charset="utf-8">
-        <meta lang="en-us">
-        <meta name="viewport" content="with=device-width, intial-scale=1.0">
-        
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
 
-        <!-- LOGO -->
-        <title>Regent Galaxy</title>
-        <link rel="icon" href="Media/images/planet.png">
+    <!-- SCRIPT -->
+    <script defer src="Javascript/main.js"></script>
+    <script src="https://kit.fontawesome.com/43c6abbf59.js" crossorigin="anonymous"></script>
+</head>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="CSS/learn.css">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-      
-    
-        
-        <!-- FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+<body>
 
-        <!-- SCRIPT -->
-        <script defer src="Javascript/main.js"></script>
-        <script src="https://kit.fontawesome.com/43c6abbf59.js" crossorigin="anonymous"></script>
+    <!-- HEADER -->
+    <section class="header">
+        <nav>
+            <a href="https://regentuniverse.com">
+                <img src="Media/images/regentuniverse.png" alt="Regent Universe Logo">
+            </a>
 
-    </head>
-
-    <body>
-
-        <!-- HEADER -->
-
-        <section class="header">
-            <nav>
-
-              <a href="https://regentuniverse.com"><img src="Media/images/regentuniverse.png"></a>
-
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
-                    <ul>
-                      <li><a href="index.html">HOME</a></li>
-                      <li><a href="content.html">CONTENT</a></li>
-                      <li><a href="learn.html">LEARN</a></li>
-                      <li><a href="about-us.html">ABOUT US</a></li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
-            <div class="text-box">
-                <h1>LEARN <mark class="red">PROGRAMMING</mark></h1>
-                <p>Take/Enroll in the courses chosen or made by our students to learn more about programming<br>or watch content on our youtube.
-                      </p>
-                
-                <a href="#youtube" class="hero-btn">YOUTUBE</i></a>   
-                <a href="#courses" class="hero-btn">COURSES</a>     
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="content.html">CONTENT</a></li>
+                    <li><a href="learn.html">LEARN</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                </ul>
             </div>
-            <div class="fade"></div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
 
-           
-        </section>
-
-        <!-- HEADER -->
-
-        <!-- STAGES -->
-
-        <section class="stages">
-          <h1 style="color: white;">Stages of Programming</h1>
-          <p>These are the stages/steps which are usually followed while programming.</p>
-
-          <div class="row">
-
-              <div class="stages-col">'
-
-                  <h3>Step 1. Analayzing</h3>
-                  <p>This is the first step of programming and involves getting the following information. These things are very important for the programmer because it provides him the basis for planning about the programming and to control the potential difficulties that may arise.</p>
-
-              </div>
-
-              <div class="stages-col">'
-
-                  <h3>Step 2. Planning/Designing</h3>
-                  <p>The next stage is the program design. The software developer makes use of tools like algorithms and flowcharts to develop the design of the program.
-                   <br>  <br>- Algorithm
-                     <br>- Flowchart</p>
-
-              </div>
-
-              <div class="stages-col">'
-
-                  <h3>Step 3. Coding</h3>
-                  <p>In this step programmer writes the instructions in a computer language to solve the problem. All coding process depends upon the information we obtained in previous steps. Choice of language depends upon the requirements and facilities available with a language.</p>
-
-              </div>
-
-              <div class="stages-col">'
-
-                  <h3>Step 4. Debugging</h3>
-                  <p>In this stage we remove all the errors in the program because when we are coding, there are chances that some mistakes may occur at that time. Here the program is executed manually, called DRY RUN. This is done several times until all the errors are removed from the program and the system become errors less.</p>
-
-              </div>
-
-          </div>
-
-      </section>
-
-      <!-- STAGES -->
-
-
-
-        <!-- COURSES -->
-
-
-        <section class="cards" id="courses">
-
-            <a href="https://www.sololearn.com/learning/1080" target="_blank" id="games">
-              <article class="card">
-                <picture class="thumbnail">
-                     <img class="category__01" src="Media/images/languages/c.jpeg" alt="" />
-                </picture>
-                <div class="card-content">
-                  <p class="category category__01">9 Lessons</p>
-                  <h2>LEARN C#</h2>
-                  <p>With our interactive C# Tutorial, you will learn C# programming on-the-go! Practice writing C# code, collect points, & show off your skills. You will start from basics and progress step by step<br><br><br><mark class="bold"><i class="fa-solid fa-arrow-up-right-from-square"></i>  This course is made by Sololearn</mark></p>
-               </div><!-- .card-content -->
-               
-              </article>
-            </a>       
-
-            <a href="" id="games">
-                <article class="card">
-                  <picture class="thumbnail">
-                       <img class="category__01" src="Media/images/languages/nodejs.png" alt="" />
-                  </picture>
-                  <div class="card-content">
-                    <p class="category category__01">0 Lessons - 0 Projects</p>
-                    <h2>NODEJS</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                 </div><!-- .card-content -->
-  
-                </article>
-              </a> 
-
-              <a href="" id="games">
-                <article class="card">
-                  <picture class="thumbnail">
-                       <img class="category__01" src="Media/images/languages/love.png" alt="" />
-                  </picture>
-                  <div class="card-content">
-                    <p class="category category__01">0 Lessons - 0 Projects</p>
-                    <h2>LOVE2D (LUA)</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                 </div><!-- .card-content -->
-  
-                </article>
-              </a> 
-             
-        </section>
-          
-        <!-- HEADER -->
-
-
-
-        <!-- YOUTUBE -->
-
-        <div class="youtube" id="youtube">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div class="elfsight-app-58e96270-0b92-43c9-acd0-c1b4c1856725"></div>
+        <div class="text-box">
+            <h1>LEARN <mark class="red">PROGRAMMING</mark></h1>
+            <p>
+                Take/Enroll in the courses chosen or made by our students to learn more about programming,
+                or watch content on our YouTube channel.
+            </p>
+            <a href="#youtube" class="hero-btn">YOUTUBE</a>
+            <a href="#courses" class="hero-btn">COURSES</a>
         </div>
 
-        <!-- YOUTUBE -->
+        <div class="fade"></div>
+    </section>
+    <!-- HEADER END -->
 
+    <!-- COURSES -->
+    <section class="cards" id="courses">
 
+        <a href="https://www.sololearn.com/learning/1080" target="_blank" id="games">
+            <article class="card">
+                <picture class="thumbnail">
+                    <img class="category__01" src="Media/images/languages/c.jpeg" alt="Learn C#">
+                </picture>
+                <div class="card-content">
+                    <p class="category category__01">9 Lessons</p>
+                    <h2>LEARN C#</h2>
+                    <p>
+                        With our interactive C# Tutorial, you will learn C# programming on-the-go! Practice writing C# code,
+                        collect points, & show off your skills. You will start from basics and progress step by step.
+                        <br><br>
+                        <mark class="bold"><i class="fa-solid fa-arrow-up-right-from-square"></i> This course is made by Sololearn</mark>
+                    </p>
+                </div>
+            </article>
+        </a>
 
-    </body>
+        <a href="" id="games">
+            <article class="card">
+                <picture class="thumbnail">
+                    <img class="category__01" src="Media/images/languages/nodejs.png" alt="NodeJS">
+                </picture>
+                <div class="card-content">
+                    <p class="category category__01">0 Lessons - 0 Projects</p>
+                    <h2>NODEJS</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                </div>
+            </article>
+        </a>
+
+        <a href="" id="games">
+            <article class="card">
+                <picture class="thumbnail">
+                    <img class="category__01" src="Media/images/languages/love.png" alt="LOVE2D (LUA)">
+                </picture>
+                <div class="card-content">
+                    <p class="category category__01">0 Lessons - 0 Projects</p>
+                    <h2>LOVE2D (LUA)</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                </div>
+            </article>
+        </a>
+
+    </section>
+    <!-- COURSES END -->
+
+    <!-- YOUTUBE -->
+    <div class="youtube" id="youtube">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-58e96270-0b92-43c9-acd0-c1b4c1856725"></div>
+    </div>
+    <!-- YOUTUBE END -->
+
+</body>
 
 </html>
